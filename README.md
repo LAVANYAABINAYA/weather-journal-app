@@ -38,3 +38,33 @@ A full stack web app that lets you check live weather for any city and save it a
 
 ### Setup
 1. Clone the repo
+2. git clone https://github.com/LAVANYAABINAYA/weather-journal-app.git
+   cd server
+npm install
+
+   Create a `.env` file in the `server` folder with:
+
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+WEATHER_API_KEY=your_openweathermap_api_key
+
+   Then run:
+
+node index.js
+
+
+3. Set up the frontend (in a new terminal)
+
+cd client
+npm install
+npm start
+
+
+4. Open `http://localhost:3000` in your browser
+
+## What I Learned
+Building this project helped me understand how the different layers of a full stack app connect — from a React frontend, through an Express API, to a MongoDB database — and how to safely work with API keys and environment variables in a real project.
+
+## Author
+**Lavanya Abinayaa**
+B.Tech IT Student | AWS Certified AI Practitioner
