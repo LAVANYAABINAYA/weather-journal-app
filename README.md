@@ -3,7 +3,7 @@
 A full stack web app that lets you check live weather for any city and save it alongside a personal note — building a simple journal of your days and the weather that came with them.
 
 ## Live Demo
-🔗 [Coming soon]
+🔗 [Try it live](https://weather-journal-app-henna.vercel.app)
 
 ## Features
 - Search live weather for any city worldwide
