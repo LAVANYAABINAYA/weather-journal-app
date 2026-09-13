@@ -8,7 +8,7 @@ function App() {
   const [entries, setEntries] = useState([]);
 
   const API_KEY = '947af4eeeb05dd9139e4542a4deda22d';
-  const BACKEND_URL = 'http://localhost:5000';
+  const BACKEND_URL = 'https://weather-journal-app-32eb.onrender.com';
 
   useEffect(() => {
     fetchEntries();
